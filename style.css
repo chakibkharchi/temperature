@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&display=swap');
+{
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+}
+body{
+	top: 0;
+	margin: 0;
+	padding: 0;
+    font-family: 'Fredoka', sans-serif;
+	background: #CD8457;
+	color: whitesmoke;
+	text-decoration: none;
+
+}
+nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	position: sticky;
+	top: 0px;
+	bottom: 0px; 
+	background-color:#9D603B ;
+	align-items: center;
+	text-decoration: none;
+
+}
+
+
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+padding-top: 20px;
+
+font-size: 20px;
+text-decoration: none;
+}
+nav a.logo {
+	margin-left: 10px;
+}
+nav a.logo {
+font-size: 30px;
+text-shadow: 1px 1px 3px #B5BABD;
+padding-top:0px ;
+padding-right:450px ;
+color: white;
+text-decoration: none;
+margin-left: 10px;
+}
+nav a:hover{
+color: darkred;
+font-weight: 600px; 
+
+}
+nav a.logo:hover{
+color: white;
+font-weight: 600px; 
+
+}
+nav a{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top:10px;
+	padding-bottom: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	color: whitesmoke;
+
+}
+/************************** fin menu de nigation ****************************/
+/*************************debut du header************************************/
+
+header{
+	padding-top:40px ;
+	margin-top: 0px;
+	margin-bottom: 40px;
+	padding-bottom: 80px;
+	background-repeat: no-repeat;
+	background-position: center;
+	   background: url(https://cdn01.dailycaller.com/wp-content/uploads/2018/07/Thermometer_Desert-e1530969417937.jpg);
+     background-repeat: no-repeat;
+     background-size: 1500px 1050px; 
+     background-position: center;
+}
+header h1{
+	font-size: 80px;
+	padding: 150px;
+	font-weight: 400px;
+	color: whitesmoke;
+	text-align: center;
+     text-shadow: 8px 8px 10px #BAB0B0;
+
+}
+/*********************FIN DU HEADER*********************************/
+/************************DEBUT DLA PARTIE DE TEMPERATURE************/
+section.temperature h5{
+font-size: 20px;
+padding-right: 50px;
+padding-left: 50px;
+ border: 3px solid white;
+border-radius: 18px;
+color: whitesmoke;
+background: #AD490C;
+
+	}
+section.temperature div h5{
+	font-size: 40px;
+	padding-right: 300px;
+padding-left: 100px;
+border: none;
+
+}
+section.temperature div h4{
+	font-size: 30px;
+	padding-right: 300px;
+padding-left: 40px;
+border: none;
+
+}
+section.temperature div{
+	 border: 3px solid white;
+     border-radius: 10px;
+     color: whitesmoke;
+     background: #AD490C;
+     padding-right: 10px;
+     padding-left: 50px;
+     margin-right: 10px;
+     font-size: 15px;
+}
+section.temperature img{
+	border-style: inset;
+    border: 3px solid white;
+    border-radius: 18px;
+   margin-left: 200px;
+}
+section.temperature div{
+	font-size: 20px;
+}
